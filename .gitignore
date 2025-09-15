@@ -1,0 +1,29 @@
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE configuration files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+
+# --- Project Specific Ignores ---
+
+# Ignore all downloaded model checkpoints
+checkpoints/
+
+# Ignore build artifacts and distribution files
+build/
+dist/
+*.egg-info/
